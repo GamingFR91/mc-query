@@ -1,6 +1,6 @@
 const Query = require("./Query");
 
-const q = new Query({host: 'localhost', port: 5000});
+const q = new Query({host: 'play.nspe.ml', port: 19132});
 
 q.fullStat()
   .then(success => {
